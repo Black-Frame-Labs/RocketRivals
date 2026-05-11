@@ -1,8 +1,8 @@
 {
   "appName": "Rocket Rivals",
-  "version": "1.0.0",
+  "version": "1.0.100",
   "buildNumber": 1,
-  "displayVersion": "1.0.1",
+  "displayVersion": "1.0.100",
   "channel": "beta",
   "isBeta": true,
   "betaEndsAt": "2026-07-01",
