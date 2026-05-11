@@ -1,0 +1,16 @@
+{
+  "appName": "Rocket Rivals",
+  "version": "1.0.0",
+  "buildNumber": 1,
+  "displayVersion": "1.0.1",
+  "channel": "beta",
+  "isBeta": true,
+  "betaEndsAt": "2026-07-01",
+  "latestApk": "downloads/rocket-rivals-latest.apk",
+  "releaseNotes": [
+    "Pre-release beta build.",
+    "Local multiplayer and single-player campaign modes.",
+    "Classic and user-created arenas.",
+    "Power-ups, weapons, traps, teleport doors and level editor support."
+  ]
+}

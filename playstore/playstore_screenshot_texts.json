@@ -1,0 +1,26 @@
+{
+  "screenshots": [
+    {
+      "file": "assets/images/screenshot-name.png",
+      "headline": "Pick your pilot",
+      "caption": "Fast local battles start with a clean space-themed setup."
+    },
+    {
+      "file": "assets/images/screenshot-host.png",
+      "headline": "Host nearby rivals",
+      "caption": "Create a local match, manage players and configure the campaign."
+    },
+    {
+      "file": "assets/images/screenshot-singleplayer.png",
+      "headline": "Train against AI pilots",
+      "caption": "Start a solo campaign with adjustable opponents and difficulty."
+    },
+    {
+      "file": "assets/images/screenshot-gameplay.png",
+      "headline": "Trail, trap and blast",
+      "caption": "Dodge, shoot, drop obstacles and survive chaotic arena combat."
+    }
+  ],
+  "shortDescription": "Fast local multiplayer space combat with trails, weapons, custom arenas and single-player AI campaigns.",
+  "betaNotice": "Rocket Rivals is currently a pre-release beta build."
+}
