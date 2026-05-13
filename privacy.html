@@ -35,20 +35,62 @@ Rocket Rivals uses Google Firebase services including:
 * Firebase Analytics
 * Firebase Crashlytics
 
-These services may collect anonymous technical information such as:
+These services may collect anonymous technical and gameplay information such as:
 
-* App launches
-* Gameplay events
+* App startups
+* Game mode usage
+* Hosted multiplayer sessions
+* Single-player game starts
+* Arena identifiers
+* Difficulty selection
 * Device type
 * Operating system version
-* Crash logs
 * Performance information
+* Crash logs
 
-This information helps us improve game stability and gameplay quality.
+Rocket Rivals currently sends the following anonymous analytics events:
+
+### app_startup
+
+* Platform type
+* Target platform
+* Startup timestamp
+* Anonymous session identifier
+* Anonymous client identifier
+
+### game_hosted
+
+* Multiplayer mode
+* Lobby capacity
+* Anonymous session identifier
+* Anonymous client identifier
+
+### single_player_start
+
+* Arena identifier
+* Difficulty setting
+* Anonymous session identifier
+* Anonymous client identifier
+
+Rocket Rivals does NOT intentionally collect or transmit:
+
+* Real names
+* User-written text
+* Contacts
+* Messages
+* GPS/location data
+* Player codenames
+* User-created arena names
+* Gameplay chat
+* Multiplayer peer identifiers
+
+Analytics can be disabled from the in-game Settings menu.
 
 We do not use analytics for advertising personalization.
 
 We do not sell user data.
+
+Please note that third-party providers such as Google may automatically receive standard network metadata such as IP address, device information, or user agent information as part of normal HTTPS communication.
 
 For more information about Firebase privacy practices, visit:
 
@@ -56,19 +98,19 @@ https://firebase.google.com/support/privacy
 
 ## Version Checking
 
-Rocket Rivals may periodically download a small version information JSON file from the official GitHub Pages website in order to:
+Rocket Rivals may periodically download a small version information JSON file from the official Rocket Rivals website in order to:
 
 * Check the latest available version
 * Inform users about updates
 * Display release information
 
-This request does not include personal information.
+This request does not intentionally include personal information.
 
 ## Children’s Privacy
 
 Rocket Rivals is designed to avoid collecting personal information from children.
 
-If you believe personal information has been unintentionally collected, please contact us and we will remove it if possible.
+If you believe personal information has been unintentionally collected, please contact us and we will remove it if reasonably possible.
 
 ## Third-Party Services
 
@@ -107,4 +149,4 @@ Contact:
 blackframelabs.dev@gmail.com
 
 Website:
-[YOUR GITHUB PAGES URL HERE]
+https://black-frame-labs.github.io/RocketRivals/
