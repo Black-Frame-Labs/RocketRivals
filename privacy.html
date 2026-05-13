@@ -41,11 +41,14 @@ These services may collect anonymous technical and gameplay information such as:
 * Game mode usage
 * Hosted multiplayer sessions
 * Single-player game starts
-* Arena identifiers
+* Campaign completion
+* Arena source usage, such as classic or user arena mode
+* Power-up usage
+* Multiplayer connection failure diagnostics
 * Difficulty selection
 * Device type
 * Operating system version
-* Performance information
+* Anonymous performance categories
 * Crash logs
 
 Rocket Rivals currently sends the following anonymous analytics events:
@@ -72,6 +75,40 @@ Rocket Rivals currently sends the following anonymous analytics events:
 * Anonymous session identifier
 * Anonymous client identifier
 
+### campaign_finished
+
+* Game mode
+* Campaign round count
+* Winner category, such as human, AI, or draw
+* Player count
+* Anonymous session identifier
+* Anonymous client identifier
+
+### arena_source_used
+
+* Arena source, such as classic or user
+* Whether teleport doors were enabled
+* Anonymous session identifier
+* Anonymous client identifier
+
+### powerup_collected
+
+* Power-up type
+* Anonymous session identifier
+* Anonymous client identifier
+
+### multiplayer_join_failed
+
+* General failure reason, such as timeout, disconnected, full, incompatible version, rejected, or unknown
+* Anonymous session identifier
+* Anonymous client identifier
+
+### performance_bucket
+
+* Anonymous performance category, such as excellent, good, medium, or poor
+* Anonymous session identifier
+* Anonymous client identifier
+
 Rocket Rivals does NOT intentionally collect or transmit:
 
 * Real names
@@ -81,8 +118,11 @@ Rocket Rivals does NOT intentionally collect or transmit:
 * GPS/location data
 * Player codenames
 * User-created arena names
+* User-created arena content
 * Gameplay chat
 * Multiplayer peer identifiers
+* Precise movement data
+* Gameplay input streams
 
 Analytics can be disabled from the in-game Settings menu.
 
