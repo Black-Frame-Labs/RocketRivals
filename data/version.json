@@ -1,15 +1,15 @@
 {
   "appName": "Rocket Rivals",
-  "version": "1.0.15",
-  "latestVersion": "1.0.15",
-  "displayVersion": "1.0.15",
-  "buildNumber": 15,
-  "latestBuildNumber": 15,
+  "version": "1.0.22",
+  "latestVersion": "1.0.22",
+  "displayVersion": "1.0.22",
+  "buildNumber": 22,
+  "latestBuildNumber": 22,
   "minimumBuildNumber": 1,
-  "versionCode": 1778515016,
+  "versionCode": 1778515023,
   "channel": "beta",
   "isBeta": true,
-  "betaEndsAt": "2026-05-27",
+  "betaEndsAt": "2026-05-29",
   "latestApk": "downloads/rocket-rivals-latest.apk",
   "updateTitle": "Update available",
   "updateMessage": "A newer Rocket Rivals build is available. Update to get the latest fixes and improvements.",
@@ -18,6 +18,7 @@
     "Pre-release beta build.",
     "Local multiplayer and single-player campaign modes.",
     "Classic and user-created arenas.",
-    "Power-ups, weapons, traps, teleport doors and level editor support."
+    "Power-ups, weapons, traps, teleport doors and level editor support.",
+    "Haptic feedback and career mode."
   ]
 }
